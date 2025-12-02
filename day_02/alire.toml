@@ -1,0 +1,12 @@
+name = "day_02"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Diego Alonso Alvarez"]
+maintainers = ["Diego Alonso Alvarez <d.alonso-alvarez@imperial.ac.uk>"]
+maintainers-logins = ["dalonsoa"]
+licenses = "BSD-3-Clause"
+website = ""
+tags = []
+
+executables = ["day_02"]

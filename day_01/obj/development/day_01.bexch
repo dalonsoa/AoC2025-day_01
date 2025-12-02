@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__day_01.o
+[PROJECT FILES]
+/home/dalonsoa/Projects/AoC2025/day_01/day_01.gpr
+20251202050103 1d24d2ca674e369c7efc416e5aacb252
+/home/dalonsoa/Projects/AoC2025/day_01/config/day_01_config.gpr
+20251202050126 543de80b4ac4adcfeef5953710f35944
+[BOUND OBJECT FILES]
+/home/dalonsoa/Projects/AoC2025/day_01/obj/development/utils.o
+/home/dalonsoa/Projects/AoC2025/day_01/obj/development/day_01.o
+[GENERATED SOURCE FILES]
+b__day_01.ads
+b__day_01.adb
+b__day_01.ali
+[RESULTING OPTIONS]
+-L/home/dalonsoa/Projects/AoC2025/day_01/obj/development/
+-L/home/dalonsoa/Projects/AoC2025/day_01/obj/development/
+-L/home/dalonsoa/snap/codium/495/.local/share/alire/toolchains/gnat_native_15.2.1_4640d4b3/lib/gcc/x86_64-pc-linux-gnu/15.2.0/adalib/
+-static
+/home/dalonsoa/snap/codium/495/.local/share/alire/toolchains/gnat_native_15.2.1_4640d4b3/lib/gcc/x86_64-pc-linux-gnu/15.2.0/adalib/libgnat.a
+-ldl

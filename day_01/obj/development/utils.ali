@@ -1,0 +1,77 @@
+V "GNAT Lib v15"
+A -Og
+A -gnatA
+A -ffunction-sections
+A -fdata-sections
+A -g
+A -gnatwa
+A -gnatw.X
+A -gnatVa
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatyB
+A -gnatyb
+A -gnatyc
+A -gnaty-
+A -gnatyd
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyI
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatW8
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U utils%b		utils.adb		97448728 NE OO PK
+Z system.val_int%s	s-valint.ads		s-valint.ali
+
+U utils%s		utils.ads		2a4f0878 EE NE OO PK
+
+D system.ads		20250808065140 14286b0f system%s
+D s-unstyp.ads		20250808065140 fa2a7f59 system.unsigned_types%s
+D s-valint.ads		20250808065140 8bab724f system.val_int%s
+D s-valspe.ads		20250808065140 f810d31c system.val_spec%s
+D s-valuns.ads		20250808065140 f7ddb71d system.val_uns%s
+D s-valuei.ads		20250808065140 d9377ca5 system.value_i%s
+D s-vaispe.ads		20250808065140 8280550e system.value_i_spec%s
+D s-valueu.ads		20250808065140 a38d32a6 system.value_u%s
+D s-vauspe.ads		20250808065140 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20250808065140 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20250808065140 e7f47a27 system.vs_uns%s
+D utils.ads		20251202050430 2a4f0878 utils%s
+D utils.adb		20251202050454 bd0b8f50 utils%b
+G a e
+G c Z s b [increment utils 3 14 none]
+G c Z s b [to_integer utils 9 13 none]
+X 12 utils.ads
+1K9*Utils 11l5 11e10 13|1b14 44l5 44t10
+3U14*Increment 4=7 5>7 6=7 7>7 13|3b14 31l8 31t17
+4i7 Value{integer} 13|4b7 11r21 12m7 12r17 15r10 16m10 16r25 23r10 24r13
+. 26r16
+5i7 Diff{integer} 13|5b7 12r25 20r41 24r45 26r48
+6i7 Extra_Zeros{integer} 13|6b7 20m7 20r22 25m13 25r28 27m13 27r28
+7i7 Max{integer} 13|7b7 12r35 16r19 20r49
+9V13*To_Integer{integer} 9>25 13|33b13 42l8 42t18
+9a25 Value{string} 13|33b25 36r10 36r17 41r36 41r43 41r62
+X 13 utils.adb
+9i7 Value_Init{integer} 11m7 23r30 24r21 26r24
+34i7 sign{integer} 37m10 39m10 41r14
+
