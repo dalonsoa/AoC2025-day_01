@@ -13,7 +13,6 @@ procedure Day_03 is
      (Bank : String; dig : Integer := 2; Current_Str : String := "")
       return String
    is
-      Temp_Str    : Unbounded_String := To_Unbounded_String (Current_Str);
       Largest     : Integer := 0;
       Idx_Largest : Integer := 0;
    begin
@@ -24,16 +23,14 @@ procedure Day_03 is
          end if;
       end loop;
 
-      Append (Temp_Str, Bank (Idx_Largest));
-
       if dig > 1 then
          return
            Get_Largest
              (Bank (Idx_Largest + 1 .. Bank'Last),
               dig - 1,
-              To_String (Temp_Str));
+              Current_Str & Bank (Idx_Largest));
       else
-         return To_String (Temp_Str);
+         return Current_Str & Bank (Idx_Largest);
       end if;
    end Get_Largest;
 
